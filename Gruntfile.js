@@ -13,7 +13,23 @@ module.exports = function(grunt) {
     stylus: {
       compile: {
         files: {
-          'css/main.css': 'stylus/main.styl'
+          'css/custom.css': 'stylus/main.styl'
+        }
+      }
+    },
+
+    concat: {
+      css: {
+        files: {
+          'css/main.css': ['css/bootstrap.css', 'css/custom.css']
+        }
+      }
+    },
+
+    cssmin: {
+      combine: {
+        files: {
+          'css/main.min.css': ['css/main.css']
         }
       }
     },
@@ -26,6 +42,10 @@ module.exports = function(grunt) {
       stylus: {
         files: 'stylus/*.styl',
         tasks: ['stylus']
+      },
+      minify: {
+        files: 'css/*.css',
+        tasks: ['concat', 'cssmin']
       }
     }
 
@@ -34,10 +54,12 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-contrib-jade');
   grunt.loadNpmTasks('grunt-contrib-stylus');
   grunt.loadNpmTasks('grunt-contrib-watch');
+  grunt.loadNpmTasks('grunt-contrib-concat');
+  grunt.loadNpmTasks('grunt-contrib-cssmin');
 
   grunt.registerTask('html', ['jade']);
-  grunt.registerTask('css', ['stylus']);
+  grunt.registerTask('css', ['stylus', 'concat', 'cssmin']);
 
-  grunt.registerTask('default', ['jade', 'stylus', 'watch']);
+  grunt.registerTask('default', ['jade', 'stylus', 'concat', 'cssmin', 'watch']);
 
 };
