@@ -6331,11 +6331,17 @@ button.close {
 }
 /*# sourceMappingURL=bootstrap.css.map */
 
+html, body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
 .hero-unit {
 	width: 100%;
 	height: 100%;
 	min-height: 650px;
-  margin-top: -20px;
 	color: white;
 	background-image: linear-gradient(
       rgba(0, 0, 0, .5),
@@ -6346,6 +6352,5 @@ button.close {
 }
   
 .hero-unit img {
-  width: 100px;
-  height: 100px;
+  margin: 0 auto;
 }
