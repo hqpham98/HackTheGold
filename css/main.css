@@ -6336,6 +6336,7 @@ html, body {
   height: 100%;
   margin: 0;
   padding: 0;
+  overflow-x: hidden;
 }
 
 .hero-unit {
@@ -6352,5 +6353,47 @@ html, body {
 }
   
 .hero-unit img {
+  margin: 0 auto;
+}
+
+.info {
+  padding: 10px;
+  color: black;
+  background-color: gold;
+}
+
+.schedule {
+	color: #000;
+	background: #fff;
+}
+
+.schedule .container {
+	padding-top: 85px;
+	padding-bottom: 70px;
+}
+
+.schedule h5 {
+  padding-top: 15px;
+}
+
+.schedule-head {
+	text-align: center;
+	font-size: 24px;
+	vertical-align: middle;
+	background-color: #F6BE00;
+}
+
+#saturday {
+	margin-right: 20px;
+	margin-left: -20px;
+	background-color: #eee;
+}
+
+#sunday {
+	margin-right: -20px;
+	background-color: #eee;
+}
+
+.sponsors img {
   margin: 0 auto;
 }
