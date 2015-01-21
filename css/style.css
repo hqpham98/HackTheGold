@@ -328,7 +328,7 @@ header {
 	}
 }
 
-@media screen and (max-width: 365px) {
+@media screen and (max-width: 405px) {
 	#home {
 		min-height: 560px;
 	}
@@ -339,6 +339,11 @@ header {
 
 	.bannerText h2 {
 		font-size: 36px;
+	}
+
+	.bannerText{
+		height: 560px;
+		top: -50px;
 	}
 
 	.regButton{
