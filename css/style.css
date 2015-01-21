@@ -124,6 +124,7 @@ header {
 
 #home{
 	height: 100vh;
+	min-height: 660px;
 }
 
 .banner {
