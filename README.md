@@ -1,3 +1,3 @@
 Hack The Gold
 ======================
-Hack The Gold Website.
+Official HackTheGold website. Based on the CodeRED source.
