@@ -316,6 +316,10 @@ header {
 		width: 320px;
 	}
 
+	.about h2 {
+		font-size: 40px;
+	}
+
 	.bannerText h2 {
 		font-size: 40px;
 	}
