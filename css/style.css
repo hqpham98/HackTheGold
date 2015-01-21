@@ -26,18 +26,18 @@ body.modal-open {
 
 .vhelper{
 	float:none;
-    display:inline-block;
-    vertical-align:middle;
-    margin-right:-4px;
+	display:inline-block;
+	vertical-align:middle;
+	margin-right:-4px;
 }
 
 .noselect {
-    -webkit-touch-callout: none;
-    -webkit-user-select: none;
-    -khtml-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
 }
 
 .col-xs-12, .col-sm-4, .col-md-4, .col-lg-4 {
@@ -53,9 +53,9 @@ body.modal-open {
 .wrapper {
 	width: 100%;
 	background: linear-gradient(
-      rgba(27, 31, 43, 0.6),
-      rgba(27, 31, 43, 0.6)
-    ), url(../images/bwmesh.svg) no-repeat center center fixed;
+	  rgba(27, 31, 43, 0.6),
+	  rgba(27, 31, 43, 0.6)
+	), url(../images/bwmesh.svg) no-repeat center center fixed;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -140,16 +140,14 @@ header {
 }
 
 .bannerText {
+	height: 800px;
 	margin: auto;
 	position: absolute;
+	top: 0;
 	left: 0;
+	bottom: 0;
 	right: 0;
 	text-align: center;
-	padding: 30px 0 30px;
-	max-width: 960px;
-	color: white;
-	zoom: 1;
-	line-height: 10px;
 }
 
 .bannerText h2 {
