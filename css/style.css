@@ -45,6 +45,11 @@ body.modal-open {
 	padding-bottom: 15px;
 }
 
+.container{
+	padding-top: 85px;
+	padding-bottom: 85px;
+}
+
 .wrapper {
 	width: 100%;
 	background: linear-gradient(
@@ -76,12 +81,12 @@ p {
 h2 {
 	font-family: 'Open Sans', sans-serif;
 	font-size: 36px;
-	line-height: 38px;
+	line-height: 56px;
 	padding-bottom: 0;
 	font-weight: 300;
 	text-transform: uppercase;
 	margin: 0;
-	color: gold;
+	color: #F6BE00;
 }
 
 h3 {
@@ -159,35 +164,13 @@ header {
 }
 
 #logo {
-	width:480px;
-}
-
-.about {
-	background: #fff;
-	color: #000;
-	position: relative;
-}
-
-.about .container {
-	padding-top: 85px;
-	padding-bottom: 93px;
-}
-
-.about a {
-	color: #F6BE00;
-}
-
-.about h2 {
-	font-size: 56px;
-	text-transform: none;
-}
-
-.about p {
-	font-size: 24px;
-	line-height: 48px;
+	width:100%;
+	max-width: 480px;
+	padding-bottom: 20px;
 }
 
 .regButton {
+	margin-top: 25px;
 	font-size: 16px;
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 700;
@@ -203,10 +186,8 @@ header {
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 700;
 	background: #F6BE00;
-	/*display: inline-block;*/
 	color: white;
 	position: relative;
-	/*height: 10%;*/
 }
 
 .regButton:hover {
@@ -215,6 +196,26 @@ header {
 
 #regModal{
 	height: 100%;
+}
+
+.about {
+	background: #fff;
+	color: #000;
+	position: relative;
+}
+
+.about a {
+	color: #F6BE00;
+}
+
+.about h2 {
+	font-size: 56px;
+	text-transform: none;
+}
+
+.about p {
+	font-size: 24px;
+	line-height: 48px;
 }
 
 .modal {
@@ -235,11 +236,6 @@ header {
 
 .schedule {
 	color: #000;
-}
-
-.schedule .container {
-	padding-top: 85px;
-	padding-bottom: 69px;
 }
 
 .scheduleHead{
@@ -269,28 +265,9 @@ header {
 	color: #000;
 }
 
-.faq .container {
-	padding-top: 85px;
-	padding-bottom: 90px;
-}
-
-.faq h2 {
-	color: #F6BE00;
-}
-
-
 .sponsors {
 	background: #FFFFFF;
 	color: #000;
-}
-
-.sponsors .container {
-	padding-top: 85px;
-	padding-bottom: 90px;
-}
-
-.sponsors h2 {
-	color: #F6BE00;
 }
 
 .sponsors h4 {
