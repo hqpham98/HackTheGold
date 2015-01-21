@@ -330,12 +330,12 @@ header {
 }
 
 @media screen and (max-width: 365px) {
-	#logo{
-		width: 90%;
+	#home {
+		min-height: 600px;
 	}
 
-	.about h2 {
-		font-size: 40px;
+	#logo {
+		width: 90%;
 	}
 
 	.bannerText h2 {
