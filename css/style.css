@@ -292,6 +292,7 @@ header {
 
 #footerRight {
 	text-align: right;
+	padding-bottom: 0;
 }
 
 @media screen and (max-width: 991px) {
