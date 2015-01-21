@@ -277,9 +277,13 @@ header {
 	max-width: 600px;
 }
 
-.footer {
-	padding-top: 40px;
-	padding-bottom: 40px;
+.sponsors .row{
+	padding-bottom: 20px;
+}
+
+.footer .container {
+	padding-top: 61px;
+	padding-bottom: 60px;
 }
 
 #footerRight {
