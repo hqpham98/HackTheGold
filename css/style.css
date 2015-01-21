@@ -4,8 +4,8 @@
 }
 
 html{
-	min-width: 480px;
-	min-height: 600px;
+	min-width: 320px;
+	min-height: 550px;
 }
 
 body {
@@ -166,8 +166,8 @@ header {
 	overflow: hidden;
 }
 
-.logo {
-	max-width: 100vw;
+#logo {
+	width:480px;
 }
 
 .about {
@@ -339,5 +339,19 @@ header {
 
 	.footer{
 		text-align: center;
+	}
+}
+
+@media screen and (max-width: 480px) {
+	#logo{
+		width: 320px;
+	}
+
+	.bannerText h2 {
+		font-size: 42px;
+	}
+
+	.regButton{
+		width: 300px;
 	}
 }
