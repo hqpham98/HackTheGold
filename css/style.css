@@ -331,7 +331,7 @@ header {
 
 @media screen and (max-width: 365px) {
 	#home {
-		min-height: 600px;
+		min-height: 560px;
 	}
 
 	#logo {
