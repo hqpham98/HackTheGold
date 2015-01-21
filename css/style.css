@@ -166,6 +166,10 @@ header {
 	overflow: hidden;
 }
 
+.logo {
+	max-width: 100vw;
+}
+
 .about {
 	background: #fff;
 	color: #000;
