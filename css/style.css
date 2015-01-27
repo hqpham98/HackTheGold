@@ -295,6 +295,15 @@ header {
 	padding-bottom: 0;
 }
 
+.mapoverlay {
+    background:transparent; 
+    position:relative; 
+    width:100%;
+    height:300px; 
+    top:300px; 
+    margin-top:-300px;
+}
+
 @media screen and (max-width: 991px) {
 	.bannerText {
 		padding-left: 25px;
