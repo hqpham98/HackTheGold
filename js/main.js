@@ -9,7 +9,6 @@
 // jQuery(window).load(function () {
 //     positionNav();
 // });
-var noScript = document.getElementsByClassName( 'noScriptHack' );
-for( var i = 0; i < noScript.length; i++ ) {
-	noScript[ i ].remove();
-}
+var noScript = document.getElementById( 'noScriptLink' );
+noScript.parentElement.insertBefore( noScript.firstChild.nextSibling, noScript );
+noScript.remove();
