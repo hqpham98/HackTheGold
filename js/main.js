@@ -11,5 +11,5 @@
 // });
 var noScript = document.getElementsByClassName( 'noScriptHack' );
 for( var i = 0; i < noScript.length; i++ ) {
-	document.body.removeChild( noScript[ i ] );
+	noScript[ i ].remove();
 }
