@@ -371,3 +371,7 @@ header {
 .noScriptLink  {
 	text-decoration: none;
 }
+.contactLink, .contactLink:link, .contactLink:visited, .contactLink:hover, .contactLink:active {
+	text-decoration: underline;
+	color: white;
+}
