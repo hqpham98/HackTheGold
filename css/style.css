@@ -368,3 +368,6 @@ header {
 		width: 90%;
 	}
 }
+.noScriptLink  {
+	text-decoration: none;
+}
